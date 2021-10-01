@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// this entry code says, put the app inside the div element. strict mode is just JS is a forgiving language so it may forgive your errors which we don't want to keep the clean code, hence we use strict mode
 ReactDOM.render(
   <React.StrictMode>
     <App />
